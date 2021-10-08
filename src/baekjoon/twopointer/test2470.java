@@ -1,4 +1,4 @@
-package baekjoon.binarysearch;
+package baekjoon.twopointer;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -34,7 +34,6 @@ public class test2470 {
                 i++;
             }
         }
-        Arrays.sort(ans);
         System.out.println(ans[0]+" "+ans[1]);
     }
 }
