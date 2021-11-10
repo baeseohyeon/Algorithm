@@ -3,6 +3,7 @@ package baekjoon.backtracking;
 import java.util.Scanner;
 
 public class test1941 {
+    // https://mygumi.tistory.com/218 풀이 참고
     static int ans, cnt;
     static char[][] map;
     static boolean[][] visit;
