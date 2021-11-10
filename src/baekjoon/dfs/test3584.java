@@ -47,11 +47,7 @@ public class test3584 {
         }
         visit[now] = true;
         for (int next : list[now]) {
-            if (!visit[next]) {
-                dfs(next);
-            } else if (visit[next]) {
-                ans = next;
-            }
+            dfs(next);
         }
     }
 }
