@@ -28,13 +28,12 @@ public class test11728 { //https://www.acmicpc.net/source/27444540 참고
             arr[i] = parseInt(st.nextToken());
         }
         Arrays.sort(arr);
-        for(int i=0; i<n+m; i++){
-            bw.write(arr[i]+" ");
+        for (int i = 0; i < n + m; i++) {
+            bw.write(arr[i] + " ");
         }
         bw.flush();
         bw.close();
         br.close();
-
     }
 
 }
