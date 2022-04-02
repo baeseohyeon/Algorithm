@@ -55,7 +55,7 @@ public class test14003 {
         System.out.println(sb);
     }
 
-    public static int lowerBound(int right, int target) { //target 이상의 숫자가 나타나는 최소 인덱스 리턴
+    public static int lowerBound(int right, int target) {
         int left = 1;
         while (left <= right) {
             int mid = (left + right) / 2;
