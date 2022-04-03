@@ -87,7 +87,7 @@ public class test2933 {
                     cluster = new ArrayList<>();
                     bfs(i, j);
                     sort(cluster, (o1, o2) -> o2.x - o1.x); //미네랄 높이 내림차순
-                    if (cluster.get(0).x < r) { //클러스터가 움직여야할때
+                    if (cluster.get(0).x < r) {
                         return true;
                     }
                 }
