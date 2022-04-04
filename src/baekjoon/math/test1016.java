@@ -14,8 +14,8 @@ public class test1016 { //https://blog.crazzero.com/34 참고
         for (long i = 2; i * i <= max; i++) {
             long num = i * i;
             long divided = min % num == 0 ? min / num : min / num + 1;
-            for (long j = divided; num * j < max - min + 1; j++) {
-                isPowNoNoNumber[(int) (num * j)] = false;
+            for (long j = divided; num * j <= max; j++) {
+                isPowNoNoNumber[(int) (num * j - min)] = false;
             }
         }
         int cnt = 0;
