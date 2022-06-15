@@ -20,9 +20,6 @@ public class test2992 {
     }
 
     private static void findNum(String now) {
-        if (now.equals("0")) {
-            return;
-        }
         if (now.length() == len) {
             if (parseInt(now) > parseInt(originNumString)) {
                 ans = Math.min(ans, parseInt(now));
