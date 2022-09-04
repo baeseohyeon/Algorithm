@@ -4,13 +4,11 @@ import static java.lang.Integer.MAX_VALUE;
 
 public class 외벽점검 {
 
-    static int answer;
+    static int answer = MAX_VALUE;
     static int[] sum, distance;
     static boolean[] checkDist;
 
     public static void main(String[] args) {
-        //weak : 결함 위치, dist : 작업자 이동가능 거리
-//        System.out.println(solution(12, new int[]{1, 5, 6, 10}, new int[]{1, 2, 3, 4}));
         System.out.println(solution(200, new int[]{0, 100, 150}, new int[]{1, 1}));
     }
 
